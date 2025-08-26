@@ -19,7 +19,7 @@ This repository contains my solution for the semantic search on movie plots assi
 ## Repository Structure
 - `movie_search.py`: Module implementing semantic search
 - `movies.csv`: Tiny sample dataset (title, plot)
-- `tests/test_movie_search.py`: Unit tests for `search_movies`
+- `test_movie_search.py`: Unit tests for `search_movies`
 - `requirements.txt`: Project dependencies
 - `README.md`: This file
 
