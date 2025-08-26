@@ -60,6 +60,11 @@ python movie_search.py --query "spy thriller in Paris" --top-n 3
 ```
 This prints a concise table with `title` and `similarity`.
 
+## Run Unit Tests
+```bash
+python -m unittest test_movie_search.py -v
+```
+
 ## Notes
 - Model used: `sentence-transformers/all-MiniLM-L6-v2`
 - Similarity metric: cosine similarity (scaled to 0..1)
